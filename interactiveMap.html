@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="/map.js" defer></script>
+     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins:300" rel="stylesheet">
+  </head>
+  <body>
+    <h1 class = "pageTitle1"> Interactive Map </h1>
+    <p class = "instructions">Click on the different regions of the map to learn facts about women's education around the world!</p>
+
+<img class = "worldmap" src= "worldmap.png" alt=World Map usemap="#worldmap">
+<map name = "worldmap">
+  <area shape = "poly" onclick="openModal1()" class = "northAmerica"
+  coords="31,106,440,109,466,305,357,475,204,368,31,106"> 
+  
+  <area shape = "poly" onclick="openModal2()" class = "southAmerica"
+  coords = "393,416,538,489,422,687,369,456"
+  href= #myModal2>
+
+  <area shape = "poly" onclick="openModal3()"class = "europe"
+  coords = "409,57,623,41,930,42,914,139,879,231,648,299"
+  href= #myModal3>
+
+  <area shape = "poly" onclick="openModal4()" class = "africa"
+  coords = "601,402,684,315,801,354,869,429,867,551,745,613,649,471"
+  href= #myModal4>
+
+   <area shape = "poly" onclick="openModal5() "class = "asia"
+  coords = "770,354,882,302,924,171,994,107,1229,159,1300,191,1254,308,1163,433,1191,510,1126,590,989,489,828,468"
+  href= #myModal5>
+
+   <area shape = "poly" onclick="openModal6()" class = "australia"
+  coords = "1092,534,1149,495,1187,463,1236,476,1320,603,1263,650"
+  href= #myModal6>
+
+
+<div id="myModal1" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>North America: American women are more likely to enroll in and complete college than men. In 2015, 72.5% of female recent high school graduates were enrolled, compared to 65.8% of recent male graduates. In 2017, women made up about 56% of students on college campuses.</p>
+  </div>
+</div>
+
+
+<div id="myModal2" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>South America: Children of mothers with no education in the Latin American and Caribbean region are 3.1 times more likely to die than those with mothers who have secondary or tertiary education, and 1.6 more likely to die that those whose mothers have primary-level education.</p>
+  </div>
+</div>
+
+<div id="myModal3" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Europe: The youth literacy rates in Europe are among the highest with 90-100% literacy. </p>
+  </div>
+</div>
+
+<div id="myModal4" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Africa: According to UNESCO, if in the countries of sub-Saharan Africa all women received at least a primary education, the mortality of children during childbirth would decrease by 70% (these are 50,000 small lives).</p>
+  </div>
+</div>
+
+<div id="myModal5" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Asia: Women make up fewer elected representatives in most rural councils. In Asia, this ranges between 1.6 percent in Sri Lanka and 31 percent in Pakistan.</p>
+  </div>
+</div>
+
+<div id="myModal6" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Australia: In 2011, there were 1,069,000 higher education students. Of these, 57% were women. Students enrolled in higher education made up half (53%) of all students enrolled in non-school qualifications. Of all women aged 15-64 years completing a non-school qualification, 42% were enrolled in a bachelor degree, compared with 37% of men. Similar proportions of both men (11%) and women (10%) were enrolled in postgraduate study.</p>
+  </div>
+</div>
+
+        <h1 class = "title"><a href= "index.html" style="text-decoration:none; color: inherit;">Girls Around the World</a></h1>
+    <!-- <a href="pageOne.html">This links to another page!</a> -->
+    <nav class="nav-bar">
+<ul class="nav-bar-options">       
+  <li><a href = "resourceHub.html"> Resource Hub </a></li>
+  <li><a href = "quiz.html">Quiz</a></li>
+  <li><a href = "interactiveMap.html">Interactive Map</a></li>
+  <li><a href = "index.html">Home </a></li>
+</ul>
+</html>
